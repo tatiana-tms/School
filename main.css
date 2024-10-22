@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+a.class1:link {
+    color: orange;
+    text-decoration: none;
+    font-family: "Verdana";
+}
+
+a.class1:visited {
+    color: orange;
+}
+
+a.class2:link {
+    color: dimgray;
+    text-decoration: none;
+    font-family: "Verdana";
+}
+
+a.class2:visited {
+    color: dimgray;
+}
+
+a.class2:hover {
+    color: white;
+}
+
+a.external:link {
+    color: dimgray;
+    text-decoration: underline;
+    font-family: "Verdana";
+}
+
+a.external:visited {
+    color: dimgray;
+    text-decoration: underline;
+    font-family: "Verdana";
+}
+
+a.external:hover {
+    color: red;
+}
+
+.social {
+    padding: 5px 20px 0 0
+}
+
+span {
+    color: blue;
+    font-size: 12px;
+    font-family: "Verdana";
+}
+
+h1 {
+    color: darkorange;
+    background-color: pink;
+    font-size: 80px;
+    text-align: center;
+    font-family: "Lobster";
+    padding: 0
+}
+
+h2 {
+    color: orangered;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Verdana";
+}
+
+h3 {
+    text-align: center;
+    font-family: "Verdana";
+    color: dimgrey;
+}
+
+.paragraph {
+    color: dimgrey;
+    text-align: left;
+    line-height: 2;
+    font-family: "Verdana";
+    background-color: white;
+    padding: 10px;
+}
+
+body {
+    background-color: mistyrose;
+    padding: 0 20px 0 20px;
+}
+
+table {
+    width: 100%;
+    border: 0;
+    background-color: white;
+    padding: 0
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+th:hover {
+    background-color: LemonChiffon;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    padding: 20px;
+}
+
+.left {
+    float: left;
+    padding: 10px 10px 0 0;
+}
+
+.footer {
+    background-color: LightSalmon;
+    text-align: center;
+    font-family: "Verdana";
+
+}
