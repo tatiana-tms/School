@@ -107,8 +107,8 @@ tr.divider {
 }
 td.divider {
 	width: 100%;
-	background-color: grey;
-	padding: 2px 0;
+	background-color:lightsteelblue;
+	padding: 1px 0;
 }
 
 th {
@@ -131,6 +131,7 @@ td {
     vertical-align: top;
 }
 td.contacts {
+	width: 50%;
     padding: 10px;
     text-align: right;
     vertical-align: middle;
@@ -146,6 +147,7 @@ td.logo {
 	font-size: 30px;
 }
 td.contact_details {
+	width: 50%;
     padding: 10px;
     text-align: left;
     vertical-align: middle;
@@ -153,9 +155,10 @@ td.contact_details {
 	font-size: 30px;
 }
 td.header {
-    padding: 10px;
+	width: 30%;
+    padding: 5px;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: bottom;
 	font-family: "Verdana";
 	color: white;
 	font-size: 30px;
@@ -193,5 +196,4 @@ img.logo {
     background-color: #FBF4A0;
     text-align: center;
     font-family: "Verdana";
-
 }
