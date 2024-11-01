@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
 a.class1:link {
-    color: orange;
+    color: black;
     text-decoration: none;
     font-family: "Verdana";
 }
 
 a.class1:visited {
-    color: orange;
+    color: black;
 }
 
 a.class2:link {
@@ -80,9 +80,17 @@ h3 {
     background-color: white;
     padding: 10px;
 }
-
+.logo {
+	color: dimgrey;
+	font-size: 70px;
+    text-align: left;
+    line-height: 1;
+    font-family: "Verdana";
+    background-color: white;
+	padding: 0px;
+}
 body {
-    background-color: mistyrose;
+    background-color:white;
     padding: 0 20px 0 20px;
 }
 
@@ -93,15 +101,46 @@ table {
     padding: 0
 }
 
-th,
+th {
+	padding: 10px;
+    text-align: center;
+    vertical-align: top;
+	background-color:#FBF4A0
+}
+th.current {
+	padding: 10px;
+    text-align: center;
+    vertical-align: top;
+	background-color:white;
+}
 td {
     padding: 10px;
     text-align: center;
     vertical-align: top;
 }
-
+td.contacts {
+    padding: 10px;
+    text-align: right;
+    vertical-align: middle;
+	font-family: "Verdana";
+	font-size: 30px;
+}
+td.contact_details {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+	font-family: "Verdana";
+	font-size: 30px;
+}
+td.info {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+	font-family: "Verdana";
+	font-size: 30px;
+}
 th:hover {
-    background-color: LemonChiffon;
+    background-color:#FFFFFF
 }
 
 .container {
@@ -119,7 +158,7 @@ img {
 }
 
 .footer {
-    background-color: LightSalmon;
+    background-color: #FBF4A0;
     text-align: center;
     font-family: "Verdana";
 
